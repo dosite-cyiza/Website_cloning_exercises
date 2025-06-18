@@ -48,6 +48,8 @@
     width: 30vm;
     background-image: url("images/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg");
     background-repeat: no-repeat;
+    align-items: center;
+    justify-items: center;
 }
 .main-content h2{
     color: white;
