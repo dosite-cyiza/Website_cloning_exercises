@@ -142,16 +142,19 @@
     color: white;
     font-size: 18px;
 }
-.accomodation-pictures{
-   width: 90%;
+
+.accomodation-pictures {
+    width: 90%;
     max-width: 1200px;
     padding: 20px;
 }
+
 .accomodation-cards {
     display: flex;
     gap: 20px;
-       
+
 }
+
 .card {
     display: flex;
     flex: 0 0 auto;
@@ -162,33 +165,40 @@
     justify-content: space-between;
     overflow: hidden;
 }
+
 .card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
 }
-.accomodation-pictures p{
-     margin-bottom: 10px;
-     margin-top: 10px;
+
+.accomodation-pictures p {
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
-.accomodation-pictures span{
-     font-weight: bold;
+
+.accomodation-pictures span {
+    font-weight: bold;
 
 }
-.accomodation-pictures h2{
+
+.accomodation-pictures h2 {
     padding-bottom: 20px;
 }
-.accomodation-pictures .card-description{
-    font-weight:500;
+
+.accomodation-pictures .card-description {
+    font-weight: 500;
 }
-.weekend-trips-second-part{
+
+.weekend-trips-second-part {
     display: flex;
 
 }
-.card-weekend-trip{
-     display: flex;
+
+.card-weekend-trip {
+    display: flex;
     flex: 0 0 auto;
     width: 48%;
     background-color: #fff;
@@ -198,36 +208,43 @@
     overflow: hidden;
     padding: 20px;
 }
-.card-weekend-trip img{
+
+.card-weekend-trip img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 
 }
-.card-weekend-trip p{
+
+.card-weekend-trip p {
     margin: 10px;
 }
-.card button{
+
+.card button {
     width: 90px;
     padding: 0;
     border-radius: 15px;
     border: none;
     color: green;
 }
-#accommodations-suits-section{
+
+#accommodations-suits-section {
     border: 1px solid black;
     width: 100%;
-    padding: 20px ;
+    padding: 20px;
     border-radius: 20px;
 }
-#accommodations-suits-section img{
+
+#accommodations-suits-section img {
     border-radius: 10px;
     width: 220px;
 }
-#more-info-card{
+
+#more-info-card {
     width: 25%;
 }
-#more-info-card img{
+
+#more-info-card img {
     width: 100%;
 }
 
@@ -238,10 +255,11 @@
     background-repeat: no-repeat;
     padding-left: 4rem;
     margin-left: 20px;
-   border-radius: 20px;
+    border-radius: 20px;
     align-content: center;
 }
-.rent-division{
+
+.rent-division {
     width: 34%;
     height: 50vh;
     background-color: white;
@@ -249,9 +267,10 @@
     padding: 20px;
     border-radius: 20px;
     justify-items: center;
-    
+
 }
-.rent-division button{
+
+.rent-division button {
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -259,6 +278,28 @@
     color: white;
     margin-top: 8px;
 }
-.rent-division h1{
+
+.rent-division h1 {
     margin-bottom: 5px;
+}
+
+.description-par {
+    width: 95%;
+    padding: 25px;
+}
+
+.description-par h2 {
+    margin-bottom: 10px;
+
+}
+
+.description-par p {
+    padding-top: 10px;
+
+}
+
+.description-par a {
+    text-decoration: none;
+    color: #1668e3;
+
 }
