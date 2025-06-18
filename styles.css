@@ -100,7 +100,6 @@
     color: white;
     background-color: #1668e3;
     font-size: 16px;
-
 }
 
 .message {
@@ -122,12 +121,13 @@
     width: 30px;
     height: 30px;
     margin: 10px;
+    padding: 5px;
 
 }
-.message-content{
+
+.message-content {
     display: flex;
     align-items: center;
-
 }
 
 .message button {
