@@ -310,3 +310,25 @@
     padding: 20px;
     font-weight: bold;
 }
+footer{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 30px;
+}
+.footer-content{
+    display: flex;
+    padding: 20px;
+    gap: 15rem;
+    
+}
+.footer-content p{
+    padding: 20px;
+}
+.footer-content a{
+    display: block;
+    text-decoration: none;
+    color: #1668e3;
+    font-size: 12px;
+    padding: 5px;
+}
+
