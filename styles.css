@@ -166,6 +166,7 @@
     width: 100%;
     height: 180px;
     object-fit: cover;
+    border-radius: 10px;
 }
 .accomodation-pictures p{
      margin-bottom: 10px;
@@ -212,6 +213,16 @@
     border-radius: 15px;
     border: none;
     color: green;
+}
+#accommodations-suits-section{
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px ;
+    border-radius: 20px;
+}
+#accommodations-suits-section img{
+    border-radius: 10px;
+    width: 220px;
 }
 
 
