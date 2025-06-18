@@ -233,13 +233,32 @@
 
 .rent-accomodation-section {
     height: 100vh;
-    width: 25vm;
-    background-image: url("images/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpeg");
+    width: 95%;
+    background-image: url("images/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101\ \(1\).jpeg");
     background-repeat: no-repeat;
+    padding-left: 4rem;
+    margin-left: 20px;
+   border-radius: 20px;
     align-content: center;
-    padding-left: 6rem;
-    border-radius: 20px;
-
-
 }
-
+.rent-division{
+    width: 34%;
+    height: 50vh;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    justify-items: center;
+    
+}
+.rent-division button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1668e3;
+    color: white;
+    margin-top: 8px;
+}
+.rent-division h1{
+    margin-bottom: 5px;
+}
