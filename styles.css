@@ -43,32 +43,35 @@
     color: black;
 }
 
-.main-content{
+.main-content {
     height: 100vh;
     width: 30vm;
     background-image: url("images/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg");
     background-repeat: no-repeat;
     align-content: center;
     padding-left: 5rem;
-    
-    
+
+
 }
-.main-content h2{
+
+.main-content h2 {
     color: white;
-    font-family:Roboto;
+    font-family: Roboto;
     font-size: 40px;
 }
-.search-bar{
+
+.search-bar {
     background-color: white;
-    width : 80%;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     gap: 12px;
     padding: 12px;
     border-radius: 16px;
 }
-.field{
+
+.field {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -77,16 +80,19 @@
     border-radius: 10px;
     padding: 8px 12px;
 }
-.field-label{
+
+.field-label {
     font-size: 12px;
     margin-bottom: 4px;
 
 }
-.field-input{
+
+.field-input {
     border: none;
     font-size: 16px;
 }
-.btn-submit{
+
+.btn-submit {
     width: 90px;
     border: none;
     padding: 20px 0;
@@ -95,4 +101,44 @@
     background-color: #1668e3;
     font-size: 16px;
 
+}
+
+.message {
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #01183f;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 2rem 6rem;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.comment {
+    background-color: skyblue;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+
+}
+.message-content{
+    display: flex;
+    align-items: center;
+
+}
+
+.message button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1668e3;
+    color: white;
+}
+
+.message p {
+    color: white;
+    font-size: 18px;
 }
