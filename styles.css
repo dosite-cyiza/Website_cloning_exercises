@@ -1,45 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 }
-.navbar{
+
+.navbar {
     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: 100%;
-     padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 }
-.navbar__links ul{
+
+.navbar__links ul {
     display: flex;
     align-items: center;
 }
-.navbar__links ul li{
+
+.navbar__links ul li {
     list-style: none;
     padding: 10px;
 }
-.navbar__links ul li a{
+
+.navbar__links ul li a {
     text-decoration: none;
     color: black;
 }
-.navbar__links ul li a:hover{
+
+.navbar__links ul li a:hover {
     color: #1668e3;
 }
+
 .navbar__links ul li button {
     padding: 10px;
     border: none;
     border-radius: 12px;
-   
-}
-.navbar__links ul li button a:hover{
-    color: black; 
+
 }
 
-.main-bg-image{
-    width: 100%;
-}
-.main-bg-image img{
-    width: 100%;
+.navbar__links ul li button a:hover {
+    color: black;
 }
 
+.main-content{
+    height: 100vh;
+    width: 30vm;
+    background-image: url("images/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.jpeg");
+    background-repeat: no-repeat;
+}
+.main-content h2{
+    color: white;
+}
+.search-bar{
+    background-color: white;
+    width : 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 16px;
+}
+.field{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+.field-label{
+    font-size: 12px;
+    margin-bottom: 4px;
+
+}
+.field-input{
+    border: none;
+    font-size: 16px;
+}
+.btn-submit{
+    width: 90px;
+    border: none;
+    padding: 20px 0;
+    border-radius: 50px;
+    color: white;
+    background-color: #1668e3;
+    font-size: 16px;
+
+}
