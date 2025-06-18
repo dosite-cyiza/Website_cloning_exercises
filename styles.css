@@ -278,7 +278,6 @@
     color: white;
     margin-top: 8px;
 }
-
 .rent-division h1 {
     margin-bottom: 5px;
 }
@@ -287,19 +286,27 @@
     width: 95%;
     padding: 25px;
 }
-
 .description-par h2 {
     margin-bottom: 10px;
-
 }
-
 .description-par p {
     padding-top: 10px;
-
 }
 
 .description-par a {
     text-decoration: none;
     color: #1668e3;
 
+}
+.travel-destination-section h2{
+    padding: 20px;   
+}
+.travel-destination-section select{
+    border: none;
+    margin-left: 70rem;
+    display: block;   
+}
+.selection{
+    padding: 20px;
+    font-weight: bold;
 }
