@@ -11,10 +11,6 @@
      width: 100%;
      padding: 20px;
 }
-.navbar__logo{
-    color: #1668e3;
-    font-size: large;
-}
 .navbar__links ul{
     display: flex;
     align-items: center;
@@ -37,8 +33,13 @@
    
 }
 .navbar__links ul li button a:hover{
-    color: black;
-    
-   
-   
+    color: black; 
 }
+
+.main-bg-image{
+    width: 100%;
+}
+.main-bg-image img{
+    width: 100%;
+}
+
